@@ -1,0 +1,35 @@
+name: wyrdle
+description: "A wordle-style game for mobile."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.5.2
+  cupertino_icons: ^1.0.8
+  audioplayers: ^6.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/easy_words.txt
+    - assets/hard_words.txt
+    - assets/icon.png
+    - assets/music/The_Sunday_Pattern.mp3
+    - assets/music/The_Unresolved_Room.mp3
+    - assets/music/The_Geometry_Of_Focus.mp3
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
