@@ -1,17 +1,22 @@
-# wyrdle
+# Wyrdle
 
-A new Flutter project.
+A feature-rich, tiered-difficulty Wordle clone built with Flutter. Wyrdle takes the classic word-guessing formula and adds progression, persistent stats, and high-stakes challenges.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+* **Dynamic Tiered Difficulty:** The game evolves as you play, offering increasingly challenging word lists.
+* **Boss Levels:** Every 10th win triggers a "Boss Level" to test your vocabulary limits.
+* **High-Stakes Streaks:** Reach a streak of 300+, and the game permanently shifts to the hardest word list—no turning back.
+* **Persistent Statistics:** Tracks your Current Streak, Best Streak, and Total Solved words.
+* **Custom UI:** Includes a fully integrated virtual keyboard and a seamless Dark/Light mode toggle.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Installation & Setup
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### Prerequisites
+* Flutter SDK
+* Android Studio / VS Code
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Running the App
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/Wyrdle.git](https://github.com/YOUR_USERNAME/Wyrdle.git)
